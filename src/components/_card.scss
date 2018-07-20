@@ -1,0 +1,28 @@
+.reveal .card-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin: 36px 0;
+}
+
+.reveal .card {
+  flex: 1 0 calc(100% / 4);
+  padding: 16px 16px;
+  border-radius: 8px;
+  border: 2px solid $secondary-color;
+  background-color: $primary-color-lighter;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.reveal .card:not(:last-child) {
+  margin-right: 16px;
+}
+
+.reveal .card > img {
+  display: block;
+  width: auto;
+  height: 150px;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+}

@@ -1,0 +1,12 @@
+$text-color: #6C6E58;
+$text-color-darker: darken($text-color, 5%);
+$text-color-lighter: lighten($text-color, 5%);
+
+$primary-color: #F4F7D9;
+$primary-color-darker: darken($primary-color, 5%);
+$primary-color-lighter: lighten($primary-color, 5%);
+
+$secondary-color: #6C6E58; // Same to the text
+
+$highlight-color: #417378;
+$highlight-color-lighter: lighten($highlight-color, 5%);

@@ -1,0 +1,16 @@
+{
+  "name": "reveal-theme",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Reveal.js theme",
+  "author": "Neetshin <n33t5hin@gmail.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path scss src/theme.scss dist/theme.css"
+  },
+  "dependencies": {
+    "node-sass": "^4.9.2",
+    "reveal.js": "^3.6.0"
+  }
+}
